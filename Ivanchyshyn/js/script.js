@@ -148,6 +148,7 @@ $(document).ready(function() {
         $('a:active').toggleClass('dark');
         $('table').toggleClass('dark');
         $('input').toggleClass('dark');
+        $('.mega-menu').toggleClass('dark');
     });
 
     var yourNavigation = $(".sticky-bar");
