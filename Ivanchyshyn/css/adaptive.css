@@ -1,0 +1,329 @@
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .login-form-container{
+    width: 40%;
+  }
+  .main-menu>nav>ul>li {
+    margin: 0 6px;
+  }
+  .product-details.ml-30 {
+    margin-left: 0;
+  }
+  .single-sidebar-blog .sidebar-blog-content h4 {
+    font-size: 14px;
+  }
+  .single-sidebar-blog .sidebar-blog-img {
+    margin: 0 8px 0 0;
+  }
+  .contact-area .contact-form {
+    margin-left: 20px;
+  }
+  .sidebar-style {
+    margin-right: 0px;
+  }
+  .shop-list-content h3 {
+    margin: 0 0 7px;
+    font-size: 20px;
+  }
+  .shop-list-content p {
+    margin: 0 0 7px;
+  }
+  .shop-list-price-wrap {
+    margin: 0 0 7px;
+  }
+  .shop-list-price-ratting .ht-product-list-price {
+    margin: 0 0 10px;
+  }
+  .shop-list-price-wrap .ht-product-list a {
+    padding: 12px 15px 8px;
+    font-size: 18px;
+    margin-right: 0;
+  }
+  .shop-list-price-wrap .ht-product-list .list-cart {
+    padding: 13px 10px 7px;
+  }
+}
+
+@media (max-width: 1169px) and (min-width: 992px) {
+  .slider-area {
+    padding: 0 30px;
+  }
+  .single-slide {
+    height: 690px!important;
+  }
+  .single-slide .slider-content h1 {
+    font-size: 55px;
+    line-height: 45px;
+  }
+  .single-slide .slider-content p {
+    font-size: 14px;
+    margin: 20px 0 30px;
+  }
+  .slide-nav div {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+  }
+  .single-banner .banner-content h2 {
+    margin: 14px 0 16px;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .login-form-container{
+    width: 50%;
+  }
+  .header-mobile {
+    display: block;
+  }
+  .single-slide {
+    height: 520px!important;
+  }
+  .main-header {
+    display: none;
+  }
+  .single-slide .slider-content h1 {
+    font-size: 35px!important;
+    line-height: 40px;
+  }
+  .single-slide .slider-content p {
+    font-size: 14px;
+    margin: 20px 0 30px;
+  }
+  .single-banner .banner-content {
+    left: 45px;
+  }
+  .single-banner .banner-content h2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin: 4px 0 10px;
+  }
+  .single-testimonial p {
+    width: 90%;
+  }
+  .section-margin-1 {
+    margin: 0 40px;
+  }
+  .testimonial-area {
+    padding-top: 80px;
+    padding-bottom: 95px;
+  }
+  .mc-form input {
+    padding: 2px 20px 2px 10px;
+  }
+  .product-slider,
+  .testimonial-slider {
+    margin-right: -30px;
+  }
+  .product-details.ml-30 {
+    margin-left: 0;
+  }
+  .description-review-wrapper .description-review-topbar a {
+    margin: 17px 14px 0px 0;
+    font-size: 16px;
+  }
+  .blog-details-wrapper.mr-20 {
+    margin-right: 0;
+  }
+  .sidebar-style {
+    margin-top: 30px;
+    margin-right: 0;
+  }
+  .contact-area .contact-form {
+    margin-left: 0px;
+    padding: 30px;
+  }
+  .shop-list-content h3 {
+    margin: 0 0 7px;
+    font-size: 20px;
+  }
+  .shop-list-content p {
+    margin: 0 0 7px;
+  }
+  .shop-list-price-wrap {
+    margin: 7px 0 0;
+  }
+  .shop-list-price-ratting .ht-product-list-price {
+    margin: 0 0 10px;
+  }
+  .shop-list-price-wrap .ht-product-list a {
+    padding: 12px 15px 8px;
+    font-size: 18px;
+    margin-right: 4px;
+  }
+  .shop-list-price-wrap .ht-product-list .list-cart {
+    padding: 13px 10px 7px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .login-form-container{
+    width: 90%;
+    padding: 37px 15px;
+  }
+  .header-mobile {
+    display: block;
+  }
+  .main-header {
+    display: none;
+  }
+  .mobile-canvas {
+    margin-left: 12px;
+  }
+  .single-slide {
+    height: 590px!important;
+  }
+  .single-slide .slider-content h1 {
+    font-size: 28px!important;
+    line-height: 29px;
+  }
+  .single-slide .slider-content p {
+    font-size: 13px;
+    width: 100%;
+    margin: 20px 0 30px;
+  }
+  .slider-content p br {
+    display: none;
+  }
+  .single-banner .banner-content {
+    left: 20px;
+  }
+  .single-banner .banner-content h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 6px 0 8px;
+  }
+  .product-tab-list.pb-60 {
+    padding-bottom: 30px;
+  }
+  .product-tab-list a {
+    margin: 0 4px 10px;
+  }
+  .single-testimonial p {
+    width: 100%;
+    margin: 18px auto 25px;
+    font-size: 15px;
+  }
+  .section-margin-1 {
+    margin: 0 15px;
+  }
+  .testimonial-area {
+    padding-top: 50px;
+    padding-bottom: 55px;
+  }
+  .product-slider,
+  .testimonial-slider {
+    margin-right: -30px;
+  }
+  .breadcrumbs {
+    padding-bottom: 70px;
+    padding-top: 70px;
+  }
+  .product-details-area.pb-95 {
+    padding-bottom: 38px;
+  }
+  .pt-100 {
+    padding-top: 50px;
+  }
+  .product-details.ml-30 {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .sp_cart_btn {
+    padding: 23px 15px 23px;
+  }
+  .product-details-cart {
+    margin: 0 10px 0 10px;
+  }
+  .product-details-compare a {
+    margin-left: 10px;
+  }
+  .description-review-wrapper {
+    padding: 30px 15px 50px;
+  }
+  .description-review-topbar {
+    padding: 0 0 15px;
+  }
+  .description-review-wrapper .description-review-topbar a {
+    margin: 0 12px 15px 0;
+    font-size: 15px;
+  }
+  .blog-details-wrapper.mr-20 {
+    margin-right: 0;
+  }
+  .sidebar-style {
+    margin-top: 30px;
+    margin-right: 0;
+  }
+  .tag-share {
+    display: block;
+    margin: 20px 0 25px;
+  }
+  .tag-share .dec-tag {
+    margin-bottom: 10px;
+  }
+  .blog-details-meta ul li {
+    margin-right: 22px;
+  }
+  .contact-info-area .contact-info-wrap {
+    margin: 20px 0 30px;
+  }
+  .single-contact-info {
+    margin: 0 0 20px;
+  }
+  .contact-info-icon {
+    flex: 0 0 44px;
+  }
+  .contact-area .contact-form {
+    margin-left: 0;
+    padding: 30px 20px;
+  }
+  .contact-map iframe {
+    height: 300px;
+  }
+  .pb-100 {
+    padding-bottom: 50px;
+  }
+  .blog-wrap .blog-content p {
+    width: 100%;
+  }
+  .shop-top-bar {
+    display: block;
+  }
+  .shop-area {
+    padding-bottom: 50px;
+    padding-top: 45px;
+  }
+  .shop-top-bar .select-shoping-wrap {
+    display: block;
+  }
+  .shop-top-bar .select-shoping-wrap p {
+    margin: 5px 0 10px;
+  }
+  .shop-list-content {
+    padding: 20px 15px 25px;
+  }
+  .shop-list-content h3 {
+    margin: 0 0 7px;
+    font-size: 20px;
+  }
+  .shop-list-content p {
+    margin: 0 0 7px;
+  }
+  .shop-list-price-wrap {
+    display: block;
+    justify-content: inherit;
+    margin: 10px 0 0;
+  }
+  .shop-list-price-ratting {
+    margin-bottom: 10px;
+  }
+  .shop-list-price-wrap .ht-product-list a {
+    padding: 12px 12px 8px;
+    font-size: 16px;
+    margin-right: 4px;
+  }
+  .shop-list-price-wrap .ht-product-list .list-cart {
+    padding: 13px 10px 7px;
+  }
+}
