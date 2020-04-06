@@ -123,34 +123,6 @@ $(document).ready(function() {
         });
     });
 
-
-    $('.switcher').click(function() {
-        $('.switcher').toggleClass('hide');
-        $('body').toggleClass('dark-mode');
-        var src = ($('.logo-img').attr('src') === 'img/logo2.png') ?
-            'img/logo1.png' :
-            'img/logo2.png';
-        $('.logo-img').attr('src', src);
-        $('.small-img').attr('src', src);
-        $('label').toggleClass('dark');
-        $('a').toggleClass('dark');
-        $('button').toggleClass('dark');
-        $('span').toggleClass('dark');
-        $('.header').toggleClass('dark');
-        $('h2, h4, h5, h3').toggleClass('dark');
-        $('i').toggleClass('dark');
-        $('.section-footer').toggleClass('dark');
-        $('.testimonial-area').toggleClass('dark');
-        $('p').toggleClass('dark');
-        $('.contact-info-wrap').toggleClass('dark');
-        $('.swatch-title').toggleClass('dark');
-        $('.login-form-container').toggleClass('dark');
-        $('a:active').toggleClass('dark');
-        $('table').toggleClass('dark');
-        $('input').toggleClass('dark');
-        $('.mega-menu').toggleClass('dark');
-    });
-
     var yourNavigation = $(".sticky-bar");
     stickyDiv = "stick";
     yourHeader = $('.header').height();
@@ -250,3 +222,61 @@ $(document).ready(function() {
         }
     });
 });
+
+    function DarkModeSwitch(){
+        document.body.style.backgroundColor = '#282828';
+        document.getElementById('logo-img').src = 'img/logo1.png'
+        document.getElementById('light-button').classList.toggle('hide');
+        document.getElementById('dark-button').classList.toggle('hide');
+        ToggleDarkModeSelectorAll()
+        ToggleDarkModeSelector();
+    }
+
+    function LightModeSwitch(){
+        document.body.style.backgroundColor = '#fff';
+        document.getElementById('logo-img').src = 'img/logo2.png'
+        document.getElementById('light-button').classList.toggle('hide');
+        document.getElementById('dark-button').classList.toggle('hide');
+        ToggleDarkModeSelectorAll()
+        ToggleDarkModeSelector();
+    }
+
+    function ToggleDarkModeSelector(){
+        document.querySelector('.header').classList.toggle('dark');
+        document.querySelector('.section-footer').classList.toggle('dark');
+        document.querySelector('.login-form-container').classList.toggle('dark');
+        document.querySelector('.testimonial-area').classList.toggle('dark');
+        document.querySelector('.mega-menu').classList.toggle('dark');
+        document.querySelector('.swatch-title').classList.toggle('dark');
+
+    }
+    function ToggleDarkModeSelectorAll(){
+        for(var i = 0; i < document.querySelectorAll('h2, h3, h4, h5').length; i++){
+            document.querySelectorAll('h2, h3, h4, h5')[i].classList.toggle('dark');
+        }
+        for(var i = 0; i < document.querySelectorAll('a').length; i++){
+            document.querySelectorAll('a')[i].classList.toggle('dark');
+        }
+        for(var i = 0; i < document.querySelectorAll('p').length; i++){
+            document.querySelectorAll('p')[i].classList.toggle('dark');
+        }
+        for(var i = 0; i < document.querySelectorAll('i').length; i++){
+            document.querySelectorAll('i')[i].classList.toggle('dark');
+        }
+        for(var i = 0; i < document.querySelectorAll('table').length; i++){
+            document.querySelectorAll('table')[i].classList.toggle('dark');
+        }
+        for(var i = 0; i < document.querySelectorAll('input').length; i++){
+            document.querySelectorAll('input')[i].classList.toggle('dark');
+        }
+        for(var i = 0; i < document.querySelectorAll('span').length; i++){
+            document.querySelectorAll('span')[i].classList.toggle('dark');
+        }
+        for(var i = 0; i < document.querySelectorAll('label').length; i++){
+            document.querySelectorAll('label')[i].classList.toggle('dark');
+        }
+        for(var i = 0; i < document.querySelectorAll('button').length; i++){
+            document.querySelectorAll('button')[i].classList.toggle('dark');
+        }
+
+    }

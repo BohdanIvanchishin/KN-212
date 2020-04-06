@@ -31,7 +31,7 @@
               <div class="col-xl-2 col-lg-2">
                 <div class="logo">
                   <a href="#" class="theme-logo">
-                  <img class="logo-img" src="img/logo2.png" alt="Logo">
+                  <img id="logo-img" src="img/logo2.png" alt="Logo">
                   </a>
                 </div>
               </div>
@@ -40,7 +40,7 @@
                   <nav>
                     <ul>
                       <li class="angle-shape">
-                        <button id="light-button" class="switcher hide">Light mode</button>
+                        <button id="light-button" class="switcher hide" onclick="LightModeSwitch()">Light mode</button>
                       </li>
                       <li class="angle-shape">
                         <a href="#">
@@ -106,7 +106,7 @@
                         </a>
                       </li>
                       <li class="angle-shape">
-                        <button id="dark-button "class="switcher">Dark mode</button>
+                        <button id="dark-button" class="switcher" onclick="DarkModeSwitch()">Dark mode</button>
                       </li>
                     </ul>
                   </nav>
@@ -395,19 +395,23 @@
             <form action="/account" method="post" id="create_customer">
               <div class="input-field">
                 <span><i class="fas fa-user"></i></span>
-                <input type="text" id="FirstName" placeholder="Ім'я" class="input-full">
+                <input type="text" id="FirstName" class="input-full">
+                <label for="FirstName">Ім'я</label>
               </div>
               <div class="input-field">
                 <span><i class="fas fa-user"></i></span>
-                <input type="text" id="LastName" placeholder="Прізвище" class="input-full">
+                <input type="text" id="LastName" class="input-full">
+                <label for="LastName">Прізвище</label>
               </div>
               <div class="input-field">
                 <span><i class="fas fa-envelope"></i></span>
-                <input type="email" id="Email" placeholder="Пошта" class="input-full">
+                <input type="email" id="Email" class="input-full">
+                <label for="Email">Пошта</label>
               </div>
               <div class="input-field">
                 <span><i class="fas fa-lock"></i></span>
-                <input type="password" id="CreatePassword" placeholder="Пароль" class="input-full">
+                <input type="password" id="CreatePassword" class="input-full">
+                <label for="CreatePassword">Пароль</label>
               </div>
               <div class="name-errors">
                 <ul>
@@ -421,9 +425,6 @@
               </div>
               <div class="input-field checkbox_option">
                 <input type="checkbox" id="cb1"><label for="cb1">Я згоден з умовами</label>
-              </div>
-              <div class="input-field checkbox_option">
-                <input type="checkbox" id="cb2"><label for="cb2">Я хочу отримувати свіжі новини</label>
               </div>
               <input type="submit" value="Створити" class="button">
             </form>
@@ -478,11 +479,5 @@
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.nice-select.js"></script>
     <script src="js/script.js"></script>
-    <script>
-      $(document).ready(function() {
-         $('select:not(.ignore)').niceSelect();      
-         FastClick.attach(document.body);
-       });
-    </script>
   </body>
 </html>

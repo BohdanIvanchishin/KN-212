@@ -2665,7 +2665,7 @@ h2.dark,
 span.money.dark,
 .mega-menu a.dark,
 .mega-menu a.menu-title.dark,
-.contact-info-wrap.dark,
+.contact-info-wrap i.dark,
 .product-dec-icon.dark,
 a:active.dark{
   color: #fff;
@@ -2703,7 +2703,7 @@ p.dark {
   border: 1px solid #fff;
 }
 
-.mega-menu.dark,
+.mega-menu,
 .login-form-container.dark {
   background: #373737;
 }
